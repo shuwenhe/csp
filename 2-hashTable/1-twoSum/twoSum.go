@@ -17,14 +17,12 @@ func main() {
 }
 
 func twoSum(nums []int, target int) []int {
-	m := make(map[int]int)
-	for i,v := range nums{
-		j,ok := m[i]
-		if ok{
-			return []int{j,i}
-		}else{
-			m[target-v] = j
+	hashTable := map[int]int{}
+	for i, v := range nums {
+		if p, ok := hashTable[target-v]; ok {
+			return []int{p, i}
 		}
+		hashTable[v] = i
 	}
 	return nil
 }
