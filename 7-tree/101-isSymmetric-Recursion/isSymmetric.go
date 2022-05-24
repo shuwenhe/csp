@@ -1,0 +1,5 @@
+package isSymmetric
+
+func isSymmetric() {
+
+}
