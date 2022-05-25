@@ -13,6 +13,10 @@ type TreeNode struct {
 	Val         int
 }
 
+func main() {
+
+}
+
 func isSameTree(p, q *TreeNode) bool {
 	if p == nil && q == nil {
 		return true
