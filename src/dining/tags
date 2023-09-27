@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIG	help-w.cpp	/^const int maxN=5, BIG=1e9;$/;"	v
+a	dining.cpp	/^int a,b,w;$/;"	v
+a	help-w.cpp	4;"	d	file:
+a	help.cpp	/^int a,b,w;$/;"	v
+adj	dining.cpp	/^vector<array<int,2>> adj[maxN];$/;"	v
+adj	help-w.cpp	/^vector<a<int, 2>> adj[maxN];$/;"	v
+adj	help.cpp	/^vector<array<int, 2>> adj[maxN];$/;"	v
+ai	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+b	dining.cpp	/^int a,b,w;$/;"	v
+b	help.cpp	/^int a,b,w;$/;"	v
+bi	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+big	help.cpp	/^const int maxN=5, big=1e9;$/;"	v
+d1	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+d1	help.cpp	/^int d1[maxN]; \/\/ 存储从源节点到图中所有其他节点的最短距离$/;"	v
+d2	dining.cpp	/^array<int,2> d2[maxN];$/;"	v
+d2	help-w.cpp	/^a<int, 2> d2[maxN];$/;"	v
+d2	help.cpp	/^array<int,2> d2[maxN];$/;"	v
+dijkstra	dining.cpp	/^void dijkstra(){$/;"	f
+dijkstra	help.cpp	/^void dijkstra() { \/\/ 从源节点到所有其他节点的最短路径。不考虑饲料影响的最短路径 考虑饲料影响的最短路径$/;"	f
+dijkstra1	help-w.cpp	/^void dijkstra1() {$/;"	f
+dijkstra2	dining.cpp	/^void dijkstra2(){$/;"	f
+dijkstra2	help-w.cpp	/^void dijkstra2() { $/;"	f
+dijkstra2	help.cpp	/^void dijkstra2() { $/;"	f
+k	dining.cpp	/^int n,m,k;$/;"	v
+k	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+k	help.cpp	/^int n,m,k;$/;"	v
+m	dining.cpp	/^int n,m,k;$/;"	v
+m	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+m	help.cpp	/^int n,m,k;$/;"	v
+main	dining.cpp	/^int main(){$/;"	f
+main	help-w.cpp	/^int main() {$/;"	f
+main	help.cpp	/^int main() {$/;"	f
+maxN	dining.cpp	/^const int maxN = 5;$/;"	v
+maxN	help-w.cpp	/^const int maxN=5, BIG=1e9;$/;"	v
+maxN	help.cpp	/^const int maxN=5, big=1e9;$/;"	v
+n	dining.cpp	/^int n,m,k;$/;"	v
+n	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+n	help.cpp	/^int n,m,k;$/;"	v
+ti	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+w	dining.cpp	/^int a,b,w;$/;"	v
+w	help.cpp	/^int a,b,w;$/;"	v
+y	dining.cpp	/^int y[maxN];$/;"	v
+y	help-w.cpp	/^int n, m, k, y[maxN], ai, bi, ti, d1[maxN];$/;"	v
+y	help.cpp	/^int y[maxN];$/;"	v

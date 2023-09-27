@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Current	help2.cpp	/^int N,EC,Current;$/;"	v
+EC	help.cpp	/^int N,EC;$/;"	v
+EC	help2.cpp	/^int N,EC,Current;$/;"	v
+EC	help3.cpp	/^int N,EC;$/;"	v
+EC	help4.cpp	/^int N,EC,Stack[MAXN]; $/;"	v
+ES	help.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+ES	help2.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+ES	help3.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+ES	help4.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+MAXM	help.cpp	/^const int MAXN=20003,MAXM=MAXN*2;$/;"	v
+MAXM	help2.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+MAXM	help3.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+MAXM	help4.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+MAXN	help.cpp	/^const int MAXN=20003,MAXM=MAXN*2;$/;"	v
+MAXN	help2.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+MAXN	help3.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+MAXN	help4.cpp	/^const int MAXN=20001,MAXM=MAXN*4;$/;"	v
+Match	help4.cpp	/^inline void Match(int i,int j) {$/;"	f
+N	help.cpp	/^int N,EC;$/;"	v
+N	help2.cpp	/^int N,EC,Current;$/;"	v
+N	help3.cpp	/^int N,EC;$/;"	v
+N	help4.cpp	/^int N,EC,Stack[MAXN]; $/;"	v
+S	help.cpp	/^int mat[MAXN],S[MAXN][2],T[MAXN];$/;"	v
+S	help2.cpp	/^int S[MAXN][2],mat[MAXN];$/;"	v
+S	help3.cpp	/^int S[MAXN][2],mat[MAXN];$/;"	v
+S	help4.cpp	/^int S[MAXN][2],deg[MAXN],mat[MAXN]; $/;"	v
+Stack	help4.cpp	/^int N,EC,Stack[MAXN]; $/;"	v
+T	help.cpp	/^int mat[MAXN],S[MAXN][2],T[MAXN];$/;"	v
+V	help.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+V	help2.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+V	help3.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+V	help4.cpp	/^}*V[MAXN],ES[MAXM];$/;"	v	typeref:struct:edge
+addEdge	greedy.cpp	/^inline void addEdge(int a, int b) { \/\/ 创建一条从节点 a 到节点 b 的边，并且也创建了一条从节点 b 到节点 a 的边，从而模拟了无向边的存在。这样的连接方式用于构建无向图，其中节点之间的边没有方向性，可以同时在两个方向上传递信息。$/;"	f
+addEdge	transform.cpp	/^inline void addEdge(int a, int b){$/;"	f
+addedge	help.cpp	/^inline void addedge(int a,int b){$/;"	f
+addedge	help2.cpp	/^inline void addedge(int a,int b){$/;"	f
+addedge	help3.cpp	/^inline void addedge(int a,int b){$/;"	f
+addedge	help4.cpp	/^inline void addedge(int a,int b) { $/;"	f
+aug	help.cpp	/^bool aug(int i){$/;"	f
+augment	help2.cpp	/^bool augment(int i){$/;"	f
+augment	help3.cpp	/^bool augment(int i){$/;"	f
+cut	help4.cpp	/^void cut() { $/;"	f
+deg	greedy.cpp	/^int deg[maxN]; \/\/ 每个节点的度数（与之相连的边数）$/;"	v
+deg	help4.cpp	/^int S[MAXN][2],deg[MAXN],mat[MAXN]; $/;"	v
+deg	transform.cpp	/^int deg[maxN];$/;"	v
+dfs	greedy.cpp	/^void dfs(int i,bool s) { \/\/ 深度优先搜索算法，用于查找匹配 i 是当前正在考虑的节点，s 是一个布尔值，表示是否要尝试匹配节点 i。$/;"	f
+dfs	transform.cpp	/^void dfs(){$/;"	f
+dfsMatch	help4.cpp	/^void dfsMatch(int i,bool s) { $/;"	f
+e	greedy.cpp	/^} *v[maxN], e[maxM];$/;"	v	typeref:struct:edge
+e	transform.cpp	/^}*v[maxN],e[maxM];$/;"	v	typeref:struct:edge
+ec	greedy.cpp	/^int ec; \/\/ 用于追踪边的计数器，用于确定在数组 e 中的下一个可用位置。$/;"	v
+ec	transform.cpp	/^int ec;$/;"	v
+edge	greedy.cpp	/^struct edge {$/;"	s	file:
+edge	help.cpp	/^struct edge{$/;"	s	file:
+edge	help2.cpp	/^struct edge{$/;"	s	file:
+edge	help3.cpp	/^struct edge{$/;"	s	file:
+edge	help4.cpp	/^struct edge { $/;"	s	file:
+edge	transform.cpp	/^struct edge{$/;"	s	file:
+fi	help.cpp	/^FILE *fi,*fo;$/;"	v
+fix	help2.cpp	/^void fix(){$/;"	f
+fo	help.cpp	/^FILE *fi,*fo;$/;"	v
+hungary	help.cpp	/^bool hungary(){$/;"	f
+hungary	help2.cpp	/^void hungary(){$/;"	f
+init	greedy.cpp	/^void init() { \/\/ 初始化图和相关数据结构$/;"	f
+init	help.cpp	/^void init(){$/;"	f
+init	help2.cpp	/^void init(){$/;"	f
+init	help3.cpp	/^void init(){$/;"	f
+init	help4.cpp	/^void init() { $/;"	f
+init	transform.cpp	/^void init(){$/;"	f
+lock	help.cpp	/^bool vis[MAXN],lock[MAXN];$/;"	v
+main	greedy.cpp	/^int main() {$/;"	f
+main	help.cpp	/^int main(){$/;"	f
+main	help2.cpp	/^int main(){$/;"	f
+main	help3.cpp	/^int main(){$/;"	f
+main	help4.cpp	/^int main() { $/;"	f
+main	transform.cpp	/^int main(){$/;"	f
+mat	greedy.cpp	/^int mat[maxN]; \/\/ 存储匹配结果，即哪些节点与哪些节点相匹配$/;"	v
+mat	help.cpp	/^int mat[MAXN],S[MAXN][2],T[MAXN];$/;"	v
+mat	help2.cpp	/^int S[MAXN][2],mat[MAXN];$/;"	v
+mat	help3.cpp	/^int S[MAXN][2],mat[MAXN];$/;"	v
+mat	help4.cpp	/^int S[MAXN][2],deg[MAXN],mat[MAXN]; $/;"	v
+mat	transform.cpp	/^int mat[maxN];$/;"	v
+match	greedy.cpp	/^inline void match(int i,int j) {$/;"	f
+match	transform.cpp	/^void match(){$/;"	f
+maxM	greedy.cpp	/^const int maxN = 20001, maxM = maxN * 4;$/;"	v
+maxM	transform.cpp	/^const int maxN = 10001, maxM = 4 * maxN;$/;"	v
+maxN	greedy.cpp	/^const int maxN = 20001, maxM = maxN * 4;$/;"	v
+maxN	transform.cpp	/^const int maxN = 10001, maxM = 4 * maxN;$/;"	v
+n	greedy.cpp	/^int n;$/;"	v
+n	transform.cpp	/^int n;$/;"	v
+next	greedy.cpp	/^    edge* next; \/\/ 指向下一个边的指针$/;"	m	struct:edge	file:
+next	help.cpp	/^	edge *next;$/;"	m	struct:edge	file:
+next	help2.cpp	/^	edge *next;$/;"	m	struct:edge	file:
+next	help3.cpp	/^	edge *next;$/;"	m	struct:edge	file:
+next	help4.cpp	/^	edge *next; $/;"	m	struct:edge	file:
+next	transform.cpp	/^	edge * next;$/;"	m	struct:edge	file:
+noAnswer	greedy.cpp	/^void noAnswer() { \/\/ 在无解时输出 "No Answer" 并退出程序$/;"	f
+noAnswer	help4.cpp	/^void noAnswer() { $/;"	f
+nuked	greedy.cpp	/^bool nuked[maxN]; \/\/ 标记节点是否已被处理$/;"	v
+nuked	help4.cpp	/^bool nuked[MAXN];$/;"	v
+print	greedy.cpp	/^void print() {$/;"	f
+print	help.cpp	/^void print(bool win){$/;"	f
+print	help2.cpp	/^void print(){$/;"	f
+print	help3.cpp	/^void print(){$/;"	f
+print	help4.cpp	/^void print() { $/;"	f
+print	transform.cpp	/^void print(){$/;"	f
+prune	greedy.cpp	/^void prune() { \/\/ 修剪不可能的匹配，将无法匹配的节点标记为无解$/;"	f
+prune	transform.cpp	/^void prune(){$/;"	f
+s	greedy.cpp	/^int s[maxN][2]; \/\/ 存储节点的关联信息$/;"	v
+s	transform.cpp	/^int s[maxN][2];$/;"	v
+solve	greedy.cpp	/^void solve() { $/;"	f
+solve	help.cpp	/^bool solve(){$/;"	f
+solve	help2.cpp	/^void solve(){$/;"	f
+solve	help3.cpp	/^void solve(){$/;"	f
+solve	help4.cpp	/^void solve() { $/;"	f
+solve	transform.cpp	/^void solve(){$/;"	f
+stack	greedy.cpp	/^int stack[maxN]; \/\/ 存储节点的标识$/;"	v
+t	greedy.cpp	/^    int t; \/\/ 目标节点的标识$/;"	m	struct:edge	file:
+t	help.cpp	/^	int t;$/;"	m	struct:edge	file:
+t	help2.cpp	/^	int t;$/;"	m	struct:edge	file:
+t	help3.cpp	/^	int t;$/;"	m	struct:edge	file:
+t	help4.cpp	/^	int t; $/;"	m	struct:edge	file:
+t	transform.cpp	/^	int t;$/;"	m	struct:edge	file:
+v	greedy.cpp	/^} *v[maxN], e[maxM];$/;"	v	typeref:struct:edge
+v	transform.cpp	/^}*v[maxN],e[maxM];$/;"	v	typeref:struct:edge
+vis	help.cpp	/^bool vis[MAXN],lock[MAXN];$/;"	v
+vis	help2.cpp	/^bool vis[MAXN];$/;"	v
+vis	help3.cpp	/^bool vis[MAXN];$/;"	v
